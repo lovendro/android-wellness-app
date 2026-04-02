@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Farasi_wellnessApp</string>
+    <string name="healthy_recipes">Healthy recipes</string>
+    <string name="nutrition_advice">Nutrition advice</string>
+    <string name="meditation">Meditation</string>
+    <string name="hydration_alert">Hydration alert</string>
+    <string name="start_exercise">Start exercise</string>
+    <string name="daily_motivation">Daily Motivation</string>
+    <string name="todo">TODO</string>
+    <string name="health_and_wellness_app">Health and wellness app</string>
+</resources>
