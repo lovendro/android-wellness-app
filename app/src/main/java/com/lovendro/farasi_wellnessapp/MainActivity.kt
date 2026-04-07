@@ -39,8 +39,8 @@ class MainActivity : AppCompatActivity() {
         nutrition.setOnClickListener {
             val nutritionIntent= Intent(applicationContext, NutritionAdvice::class.java)
             startActivity(nutritionIntent)
-            }
-
+        }
+//meditation intent
         val meditation=findViewById<Button>(R.id.meditation)
 
         meditation.setOnClickListener {
@@ -48,6 +48,43 @@ class MainActivity : AppCompatActivity() {
             startActivity(meditationIntent)
         }
 
+//        Hydration alert intent
+
+        val hydration=findViewById<Button>(R.id.hydration)
+        hydration.setOnClickListener {
+            val hydrationIntent= Intent(applicationContext, HydrationAlert::class.java)
+            startActivity(hydrationIntent)
+        }
+
+//        start exercise intent
+        val start=findViewById<Button>(R.id.exercise)
+        start.setOnClickListener {
+            val startIntent= Intent(applicationContext, StartExercise::class.java)
+            startActivity(startIntent)
+        }
+
+//        Daily motivation intent
+        val motivation=findViewById<Button>(R.id.Motivation)
+        motivation.setOnClickListener {
+            val motivationIntent= Intent(applicationContext, DailyMotivation::class.java)
+            startActivity(motivationIntent)
+        }
+
+//        weekly goals intent
+        val goals =findViewById<Button>(R.id.goals)
+        goals.setOnClickListener {
+            val goalsIntent= Intent(applicationContext, WeeklyGoals::class.java)
+            startActivity(goalsIntent)
+        }
+
+        val progress=findViewById<Button>(R.id.progress)
+        progress.setOnClickListener {
+            val progressIntent= Intent(applicationContext, CheckProgress::class.java)
+            startActivity(progressIntent)
+        }
+
 
     }
+
+
 }
