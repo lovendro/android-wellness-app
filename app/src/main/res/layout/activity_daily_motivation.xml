@@ -6,6 +6,8 @@
     android:orientation="vertical"
     android:id="@+id/main"
     android:layout_width="match_parent"
+    android:background="@color/white"
+
     android:layout_height="match_parent"
     tools:context=".DailyMotivation">
 
@@ -16,7 +18,7 @@
         android:layout_marginTop="20dp"
         android:textSize="30sp"
         android:text="DAILY MOTIVATION"
-        android:textColor="#35DC17"/>
+        android:textColor="#424942"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -30,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Set your goals, stay focused, and push through challenges. Whether you want to lose weight, build muscle, or simply feel better, every workout brings you one step closer. Your future self will thank you for the effort you put in today."
-        android:textColor="#17DC17"
+        android:textColor="#101210"
         android:textSize="20sp"/>
 
 </LinearLayout>

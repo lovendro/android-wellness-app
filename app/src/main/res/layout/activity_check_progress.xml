@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:id="@+id/main"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CheckProgress">
@@ -13,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textColor="#17DC2B"
+        android:textColor="#3F473F"
         android:text="CHECK YOUR PROGRESS"
         android:layout_marginTop="20dp"
         android:textSize="30sp"
@@ -34,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Check your progress to view your workout history and performance over time. This section helps you understand how consistent you’ve been and highlights the improvements you’ve made. Use this information to stay on track and reach your fitness goals."
-        android:textColor="#1DCC1D"
+        android:textColor="#060706"
         android:textSize="20sp"
         />
 

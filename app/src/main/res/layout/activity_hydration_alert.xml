@@ -6,6 +6,8 @@
     android:id="@+id/main"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:background="@color/white"
+
     android:layout_height="match_parent"
     tools:context=".HydrationAlert">
 
@@ -13,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textColor="#17DC17"
+        android:textColor="#404540"
         android:layout_marginTop="20dp"
         android:textSize="30sp"
         android:text="Hydration Alert"/>

@@ -6,6 +6,8 @@
     android:id="@+id/main"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    android:background="@color/white"
+
     android:layout_height="match_parent"
     tools:context=".WeeklyGoals">
 
@@ -16,7 +18,7 @@
         android:textAlignment="center"
         android:layout_marginTop="20dp"
         android:textSize="30sp"
-        android:textColor="#3BDC17"/>
+        android:textColor="#464B46"/>
 
     <ImageView
         android:layout_width="wrap_content"

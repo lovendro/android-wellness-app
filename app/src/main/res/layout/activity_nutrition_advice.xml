@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
+
     android:layout_height="match_parent"
     tools:context=".NutritionAdvice">
 
@@ -18,7 +19,7 @@
         android:textAlignment="center"
         android:textSize="40sp"
         android:layout_marginTop="20dp"
-        android:textColor="#3BDC17"/>
+        android:textColor="#3F433E"/>
 
     <ImageView
         android:layout_width="wrap_content"
